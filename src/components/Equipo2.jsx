@@ -308,67 +308,67 @@ export const Equipo2 = () => {
         <div className="grid">
             <div className="col-12 xl:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <Chart type="doughnut" data={general} style={{ position: 'relative', width: '40%' }} />
+                    <Chart type="doughnut" data={general} style={{ position: 'relative', width: '50%' }} />
                 </div>
             </div>
             <div className="col-6 xl:col-6">
                 <div className="card flex flex-column align-items-center">
-                    <h5 className="text-center" >{pregunta1 ? pregunta1.pregunta : ''}</h5>
-                    <Chart type="doughnut" data={pregunta1} style={{ position: 'relative', width: '40%' }} />
+                    <p className="text-lg" >{pregunta1 ? pregunta1.pregunta : ''}</p>
+                    <Chart type="doughnut" data={pregunta1} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-6 xl:col-6">
                 <div className="card flex flex-column align-items-center">
-                    <h5 className="text-center" >{pregunta2 ? pregunta2.pregunta : ''}</h5>
-                    <Chart type="doughnut" data={pregunta2} style={{ position: 'relative', width: '40%' }} />
+                    <p className="text-lg" >{pregunta2 ? pregunta2.pregunta : ''}</p>
+                    <Chart type="doughnut" data={pregunta2} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-6 xl:col-6">
                 <div className="card flex flex-column align-items-center">
-                    <h5 className="text-center" >{pregunta3 ? pregunta3.pregunta : ''}</h5>
-                    <Chart type="doughnut" data={pregunta3} style={{ position: 'relative', width: '40%' }} />
+                    <p className="text-lg" >{pregunta3 ? pregunta3.pregunta : ''}</p>
+                    <Chart type="doughnut" data={pregunta3} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-6 xl:col-6">
                 <div className="card flex flex-column align-items-center">
-                    <h5 className="text-center" >{pregunta4 ? pregunta4.pregunta : ''}</h5>
-                    <Chart type="doughnut" data={pregunta4} style={{ position: 'relative', width: '40%' }} />
+                    <p className="text-lg" >{pregunta4 ? pregunta4.pregunta : ''}</p>
+                    <Chart type="doughnut" data={pregunta4} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-6 xl:col-6">
                 <div className="card flex flex-column align-items-center">
-                    <h5 className="text-center" >{pregunta5 ? pregunta5.pregunta : ''}</h5>
-                    <Chart type="doughnut" data={pregunta5} style={{ position: 'relative', width: '40%' }} />
+                    <p className="text-lg" >{pregunta5 ? pregunta5.pregunta : ''}</p>
+                    <Chart type="doughnut" data={pregunta5} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-6 xl:col-6">
                 <div className="card flex flex-column align-items-center">
-                    <h5 className="text-center" >{pregunta6 ? pregunta6.pregunta : ''}</h5>
-                    <Chart type="doughnut" data={pregunta6} style={{ position: 'relative', width: '40%' }} />
+                    <p className="text-lg" >{pregunta6 ? pregunta6.pregunta : ''}</p>
+                    <Chart type="doughnut" data={pregunta6} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-6 xl:col-6">
                 <div className="card flex flex-column align-items-center">
-                    <h5 className="text-center" >{pregunta7 ? pregunta7.pregunta : ''}</h5>
-                    <Chart type="doughnut" data={pregunta7} style={{ position: 'relative', width: '40%' }} />
+                    <p className="text-lg" >{pregunta7 ? pregunta7.pregunta : ''}</p>
+                    <Chart type="doughnut" data={pregunta7} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-6 xl:col-6">
                 <div className="card flex flex-column align-items-center">
-                    <h5 className="text-center" >{pregunta8 ? pregunta8.pregunta : ''}</h5>
-                    <Chart type="doughnut" data={pregunta8} style={{ position: 'relative', width: '40%' }} />
+                    <p className="text-lg" >{pregunta8 ? pregunta8.pregunta : ''}</p>
+                    <Chart type="doughnut" data={pregunta8} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-6 xl:col-6">
                 <div className="card flex flex-column align-items-center">
-                    <h5 className="text-center" >{pregunta9 ? pregunta9.pregunta : ''}</h5>
-                    <Chart type="doughnut" data={pregunta9} style={{ position: 'relative', width: '40%' }} />
+                    <p className="text-lg" >{pregunta9 ? pregunta9.pregunta : ''}</p>
+                    <Chart type="doughnut" data={pregunta9} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-6 xl:col-6">
                 <div className="card flex flex-column align-items-center">
-                    <h5 className="text-center" >{pregunta10 ? pregunta10.pregunta : ''}</h5>
-                    <Chart type="doughnut" data={pregunta10} style={{ position: 'relative', width: '40%' }} />
+                    <p className="text-lg" >{pregunta10 ? pregunta10.pregunta : ''}</p>
+                    <Chart type="doughnut" data={pregunta10} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
         </div>
