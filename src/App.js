@@ -6,7 +6,7 @@ import { CSSTransition } from 'react-transition-group';
 import { AppTopbar } from './AppTopbar';
 import { AppFooter } from './AppFooter';
 import { AppMenu } from './AppMenu';
-import { AppConfig } from './AppConfig';
+/* import { AppConfig } from './AppConfig'; */
 
 import { Equipo2 } from './components/Equipo2';
 import PrimeReact from 'primereact/api';
@@ -18,13 +18,14 @@ import 'prismjs/themes/prism-coy.css';
 import './layout/flags/flags.css';
 import './layout/layout.scss';
 import './App.scss';
+import { Equipo4 } from './components/Equipo4';
 
 const App = () => {
 
-    const [layoutMode, setLayoutMode] = useState('static');
-    const [layoutColorMode, setLayoutColorMode] = useState('dim')
-    const [inputStyle, setInputStyle] = useState('outlined');
-    const [ripple, setRipple] = useState(true);
+    const [layoutMode/* , setLayoutMode */] = useState('static');
+    const [layoutColorMode/* , setLayoutColorMode */] = useState('dim')
+    const [inputStyle/* , setInputStyle */] = useState('outlined');
+    const [ripple/* , setRipple */] = useState(true);
     const [staticMenuInactive, setStaticMenuInactive] = useState(false);
     const [overlayMenuActive, setOverlayMenuActive] = useState(false);
     const [mobileMenuActive, setMobileMenuActive] = useState(false);
@@ -43,7 +44,7 @@ const App = () => {
         }
     }, [mobileMenuActive]);
 
-    const onInputStyleChange = (inputStyle) => {
+    /* const onInputStyleChange = (inputStyle) => {
         setInputStyle(inputStyle);
     }
 
@@ -58,7 +59,7 @@ const App = () => {
 
     const onColorModeChange = (mode) => {
         setLayoutColorMode(mode)
-    }
+    } */
 
     const onWrapperClick = (event) => {
         if (!menuClick) {
@@ -127,9 +128,10 @@ const App = () => {
     const menu = [
         {
             label: 'Home',
-            items: [{
-                label: 'Equipo 2', icon: 'pi pi-fw pi-user', to: '/Equipo2'
-            }]
+            items: [
+                { label: 'Equipo 2', icon: 'pi pi-fw pi-user', to: '/Equipo2' },
+                { label: 'Equipo 4', icon: 'pi pi-fw pi-user', to: '/Equipo4' },
+            ]
         }
     ];
 
@@ -170,13 +172,14 @@ const App = () => {
             <div className="layout-main-container">
                 <div className="layout-main">
                     <Route path="/Equipo2" exact component={Equipo2} />
+                    <Route path="/Equipo4" exact component={Equipo4} />
                 </div>
 
                 <AppFooter layoutColorMode={layoutColorMode} />
             </div>
 
-            <AppConfig rippleEffect={ripple} onRippleEffect={onRipple} inputStyle={inputStyle} onInputStyleChange={onInputStyleChange}
-                layoutMode={layoutMode} onLayoutModeChange={onLayoutModeChange} layoutColorMode={layoutColorMode} onColorModeChange={onColorModeChange} />
+            {/* <AppConfig rippleEffect={ripple} onRippleEffect={onRipple} inputStyle={inputStyle} onInputStyleChange={onInputStyleChange}
+                layoutMode={layoutMode} onLayoutModeChange={onLayoutModeChange} layoutColorMode={layoutColorMode} onColorModeChange={onColorModeChange} /> */}
 
             <CSSTransition classNames="layout-mask" timeout={{ enter: 200, exit: 200 }} in={mobileMenuActive} unmountOnExit>
                 <div className="layout-mask p-component-overlay"></div>

@@ -19,9 +19,11 @@ export const DashboardContext = createContext();
 
 export const DashboardProvider = ({ children }) => {
     const verdadOFalsoRef = firestore.collection("verdadOFalso");
+    const JuegoDragDropRef = firestore.collection("JuegoDragDrop");
     return (
         <DashboardContext.Provider value={{
             verdadOFalsoRef,
+            JuegoDragDropRef,
         }}>
             {children}
         </DashboardContext.Provider>

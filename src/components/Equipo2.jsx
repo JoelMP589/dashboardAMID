@@ -46,7 +46,6 @@ export const Equipo2 = () => {
         let pregunta9;
         let pregunta10;
         if (verdadOFalsoFound) {
-            console.log(verdadOFalsoFound);
             labelsArray.push(verdadOFalsoFound[0].id);
             labelsArray.push(verdadOFalsoFound[1].id);
             valuesArray.push(verdadOFalsoFound[0].Total);
@@ -308,6 +307,7 @@ export const Equipo2 = () => {
         <div className="grid">
             <div className="col-12 xl:col-12">
                 <div className="card flex flex-column align-items-center">
+                    <p className="text-lg" >{general ? "Gráfica general" : ''}</p>
                     <Chart type="doughnut" data={general} style={{ position: 'relative', width: '50%' }} />
                 </div>
             </div>
