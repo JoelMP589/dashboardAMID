@@ -7,7 +7,7 @@ import { AppTopbar } from './AppTopbar';
 import { AppFooter } from './AppFooter';
 import { AppMenu } from './AppMenu';
 /* import { AppConfig } from './AppConfig'; */
-
+import { Equipo1 } from './components/Equipo1';
 import { Equipo2 } from './components/Equipo2';
 import PrimeReact from 'primereact/api';
 
@@ -129,6 +129,7 @@ const App = () => {
         {
             label: 'Home',
             items: [
+                { label: 'Equipo 1', icon: 'pi pi-fw pi-user', to: '/Equipo1' },
                 { label: 'Equipo 2', icon: 'pi pi-fw pi-user', to: '/Equipo2' },
                 { label: 'Equipo 4', icon: 'pi pi-fw pi-user', to: '/Equipo4' },
             ]
@@ -171,6 +172,7 @@ const App = () => {
 
             <div className="layout-main-container">
                 <div className="layout-main">
+                    <Route path="/Equipo1" exact component={Equipo1} />
                     <Route path="/Equipo2" exact component={Equipo2} />
                     <Route path="/Equipo4" exact component={Equipo4} />
                 </div>
