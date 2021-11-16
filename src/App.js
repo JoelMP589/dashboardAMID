@@ -19,6 +19,7 @@ import './layout/flags/flags.css';
 import './layout/layout.scss';
 import './App.scss';
 import { Equipo4 } from './components/Equipo4';
+import { Equipo3 } from './components/Equipo3';
 
 const App = () => {
 
@@ -131,6 +132,7 @@ const App = () => {
             items: [
                 { label: 'Equipo 1', icon: 'pi pi-fw pi-user', to: '/Equipo1' },
                 { label: 'Equipo 2', icon: 'pi pi-fw pi-user', to: '/Equipo2' },
+                { label: 'Equipo 3', icon: 'pi pi-fw pi-user', to: '/Equipo3' },
                 { label: 'Equipo 4', icon: 'pi pi-fw pi-user', to: '/Equipo4' },
             ]
         }
@@ -174,6 +176,7 @@ const App = () => {
                 <div className="layout-main">
                     <Route path="/Equipo1" exact component={Equipo1} />
                     <Route path="/Equipo2" exact component={Equipo2} />
+                    <Route path="/Equipo3" exact component={Equipo3} />
                     <Route path="/Equipo4" exact component={Equipo4} />
                 </div>
 

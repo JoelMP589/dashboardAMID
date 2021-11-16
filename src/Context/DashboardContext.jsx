@@ -20,11 +20,13 @@ export const DashboardContext = createContext();
 export const DashboardProvider = ({ children }) => {
     const memoramaRef = firestore.collection("Memorama");
     const verdadOFalsoRef = firestore.collection("verdadOFalso");
+    const JuegoOpMultipleRef = firestore.collection("JuegoOpMultiple");
     const JuegoDragDropRef = firestore.collection("JuegoDragDrop");
     return (
         <DashboardContext.Provider value={{
             memoramaRef,
             verdadOFalsoRef,
+            JuegoOpMultipleRef,
             JuegoDragDropRef,
         }}>
             {children}
