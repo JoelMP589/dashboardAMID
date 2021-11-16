@@ -305,69 +305,69 @@ export const Equipo2 = () => {
     }, [verdadOFalsoFound]);
     return (
         <div className="grid">
-            <div className="col-12 xl:col-12">
+            <div className="cocol-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >{general ? "Gráfica general" : ''}</p>
+                    <p className="text-sm md:text-lg sm:text-sm m-0" >{general ? "Gráfica general" : ''}</p>
                     <Chart type="doughnut" data={general} style={{ position: 'relative', width: '50%' }} />
                 </div>
             </div>
-            <div className="col-6 xl:col-6">
+            <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >{pregunta1 ? pregunta1.pregunta : ''}</p>
+                    <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta1 ? pregunta1.pregunta : ''}</p>
                     <Chart type="doughnut" data={pregunta1} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
-            <div className="col-6 xl:col-6">
+            <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >{pregunta2 ? pregunta2.pregunta : ''}</p>
+                    <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta2 ? pregunta2.pregunta : ''}</p>
                     <Chart type="doughnut" data={pregunta2} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
-            <div className="col-6 xl:col-6">
+            <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >{pregunta3 ? pregunta3.pregunta : ''}</p>
+                    <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta3 ? pregunta3.pregunta : ''}</p>
                     <Chart type="doughnut" data={pregunta3} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
-            <div className="col-6 xl:col-6">
+            <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >{pregunta4 ? pregunta4.pregunta : ''}</p>
+                    <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta4 ? pregunta4.pregunta : ''}</p>
                     <Chart type="doughnut" data={pregunta4} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
-            <div className="col-6 xl:col-6">
+            <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >{pregunta5 ? pregunta5.pregunta : ''}</p>
+                    <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta5 ? pregunta5.pregunta : ''}</p>
                     <Chart type="doughnut" data={pregunta5} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
-            <div className="col-6 xl:col-6">
+            <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >{pregunta6 ? pregunta6.pregunta : ''}</p>
+                    <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta6 ? pregunta6.pregunta : ''}</p>
                     <Chart type="doughnut" data={pregunta6} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
-            <div className="col-6 xl:col-6">
+            <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >{pregunta7 ? pregunta7.pregunta : ''}</p>
+                    <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta7 ? pregunta7.pregunta : ''}</p>
                     <Chart type="doughnut" data={pregunta7} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
-            <div className="col-6 xl:col-6">
+            <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >{pregunta8 ? pregunta8.pregunta : ''}</p>
+                    <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta8 ? pregunta8.pregunta : ''}</p>
                     <Chart type="doughnut" data={pregunta8} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
-            <div className="col-6 xl:col-6">
+            <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >{pregunta9 ? pregunta9.pregunta : ''}</p>
+                    <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta9 ? pregunta9.pregunta : ''}</p>
                     <Chart type="doughnut" data={pregunta9} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
-            <div className="col-6 xl:col-6">
+            <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >{pregunta10 ? pregunta10.pregunta : ''}</p>
+                    <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta10 ? pregunta10.pregunta : ''}</p>
                     <Chart type="doughnut" data={pregunta10} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>

@@ -114,27 +114,27 @@ export const Equipo4 = () => {
 
     return (
         <div className="grid">
-            <div className="col-12 xl:col-12">
+            <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >{general ? "Gráfica general" : ''}</p>
+                    <p className="text-sm md:text-lg sm:text-sm m-0" >{general ? "Gráfica general" : ''}</p>
                     <Chart type="doughnut" data={general} style={{ position: 'relative', width: '60%' }} />
                 </div>
             </div>
-            <div className="col-6 xl:col-6">
+            <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >Gráfica nivel 1</p>
+                    <p className="text-sm md:text-lg sm:text-sm m-0" >Gráfica nivel 1</p>
                     <Chart type="doughnut" data={juego1} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
-            <div className="col-6 xl:col-6">
+            <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >Gráfica nivel 2</p>
+                    <p className="text-sm md:text-lg sm:text-sm m-0" >Gráfica nivel 2</p>
                     <Chart type="doughnut" data={juego2} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
-            <div className="col-6 xl:col-6">
+            <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >Gráfica nivel 3</p>
+                    <p className="text-sm md:text-lg sm:text-sm m-0" >Gráfica nivel 3</p>
                     <Chart type="doughnut" data={juego3} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
