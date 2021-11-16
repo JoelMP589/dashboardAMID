@@ -305,7 +305,7 @@ export const Equipo2 = () => {
     }, [verdadOFalsoFound]);
     return (
         <div className="grid">
-            <div className="cocol-12 xl:col-6 sm:col-12">
+            <div className="col-12 xl:col-12 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >{general ? "Gráfica general" : ''}</p>
                     <Chart type="doughnut" data={general} style={{ position: 'relative', width: '50%' }} />
