@@ -82,7 +82,7 @@ export const Equipo1 = () => {
             </div>
             <div className="col-6 xl:col-6">
                 <div className="card flex flex-column align-items-center">
-                    <p className="text-lg" >{pregunta1 ? pregunta1.pregunta : ''}</p>
+                    <p className="text-lg" >{pregunta2 ? pregunta2.pregunta : ''}</p>
                     <Chart type="doughnut" data={pregunta2} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
