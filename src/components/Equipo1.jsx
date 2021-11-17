@@ -35,14 +35,12 @@ export const Equipo1 = () => {
                 {
                     data: valuesArray1,
                     backgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#1DEED5",
+                        "#EE1D40",
                     ],
                     hoverBackgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#1DEED5",
+                        "#EE1D40",
                     ],
                     borderWidth: 1,
                 },
@@ -55,14 +53,12 @@ export const Equipo1 = () => {
                 {
                     data: valuesArray2,
                     backgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#1DEED5",
+                        "#EE1D40",
                     ],
                     hoverBackgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#1DEED5",
+                        "#EE1D40",
                     ],
                     borderWidth: 1,
                 },
@@ -72,18 +68,28 @@ export const Equipo1 = () => {
 
     }, [memoramaFound]);
 
+    const lightOptions = {
+        plugins: {
+            legend: {
+                labels: {
+                    color: '#ffffff'
+                }
+            }
+        }
+    };
+
     return (
         <div className="grid">
             <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta1 ? pregunta1.pregunta : ''}</p>
-                    <Chart type="doughnut" data={pregunta1} style={{ position: 'relative', width: '90%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={pregunta1} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta2 ? pregunta2.pregunta : ''}</p>
-                    <Chart type="doughnut" data={pregunta2} style={{ position: 'relative', width: '90%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={pregunta2} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
         </div>

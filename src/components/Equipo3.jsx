@@ -24,6 +24,7 @@ export const Equipo3 = () => {
         let labelsArray = [];
         let valuesArray = [];
         let labelsArray1 = [];
+        let labelsArray2 = [];
         let valuesArray1 = [];
         let valuesArray2 = [];
         let valuesArray3 = [];
@@ -52,6 +53,8 @@ export const Equipo3 = () => {
             valuesArray.push(JuegoOpMultipleFound[10].Perdedor);
             labelsArray1.push("Opcion A");
             labelsArray1.push("Opcion B");
+            labelsArray2.push("Opcion A");
+            labelsArray2.push("Opcion B");
             labelsArray1.push("Opcion C");
             valuesArray1.push(JuegoOpMultipleFound[0].OpcionA);
             valuesArray1.push(JuegoOpMultipleFound[0].OpcionB);
@@ -119,14 +122,14 @@ export const Equipo3 = () => {
                 {
                     data: valuesArray1,
                     backgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#26E600",
+                        "#E60000",
+                        "#00E63B"
                     ],
                     hoverBackgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#26E600",
+                        "#E60000",
+                        "#00E63B"
                     ],
                     borderWidth: 1,
                 },
@@ -139,14 +142,14 @@ export const Equipo3 = () => {
                 {
                     data: valuesArray2,
                     backgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#E60000",
+                        "#00E63B",
+                        "#EE1D40"
                     ],
                     hoverBackgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#E60000",
+                        "#00E63B",
+                        "#EE1D40"
                     ],
                     borderWidth: 1,
                 },
@@ -159,14 +162,14 @@ export const Equipo3 = () => {
                 {
                     data: valuesArray3,
                     backgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#EE1D40",
+                        "#E60000",
+                        "#00E63B"
                     ],
                     hoverBackgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#EE1D40",
+                        "#E60000",
+                        "#00E63B"
                     ],
                     borderWidth: 1,
                 },
@@ -179,14 +182,14 @@ export const Equipo3 = () => {
                 {
                     data: valuesArray4,
                     backgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#00E63B",
+                        "#EE1D40",
+                        "#E60000"
                     ],
                     hoverBackgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#00E63B",
+                        "#EE1D40",
+                        "#E60000"
                     ],
                     borderWidth: 1,
                 },
@@ -199,14 +202,14 @@ export const Equipo3 = () => {
                 {
                     data: valuesArray5,
                     backgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#EE1D40",
+                        "#E60000",
+                        "#00E63B"
                     ],
                     hoverBackgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#EE1D40",
+                        "#E60000",
+                        "#00E63B"
                     ],
                     borderWidth: 1,
                 },
@@ -214,19 +217,17 @@ export const Equipo3 = () => {
             pregunta: pregunta5
         })
         setPregunta6({
-            labels: labelsArray1,
+            labels: labelsArray2,
             datasets: [
                 {
                     data: valuesArray6,
                     backgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#00E63B",
+                        "#E60000"
                     ],
                     hoverBackgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#00E63B",
+                        "#E60000"
                     ],
                     borderWidth: 1,
                 },
@@ -239,14 +240,14 @@ export const Equipo3 = () => {
                 {
                     data: valuesArray7,
                     backgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#00E63B",
+                        "#26E600",
+                        "#E60000"
                     ],
                     hoverBackgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#00E63B",
+                        "#26E600",
+                        "#E60000"
                     ],
                     borderWidth: 1,
                 },
@@ -259,14 +260,14 @@ export const Equipo3 = () => {
                 {
                     data: valuesArray8,
                     backgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#00E63B",
+                        "#26E600",
+                        "#E60000"
                     ],
                     hoverBackgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#00E63B",
+                        "#26E600",
+                        "#E60000"
                     ],
                     borderWidth: 1,
                 },
@@ -279,14 +280,14 @@ export const Equipo3 = () => {
                 {
                     data: valuesArray9,
                     backgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#00E63B",
+                        "#EE1D40",
+                        "#E60000"
                     ],
                     hoverBackgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#00E63B",
+                        "#EE1D40",
+                        "#E60000"
                     ],
                     borderWidth: 1,
                 },
@@ -299,14 +300,14 @@ export const Equipo3 = () => {
                 {
                     data: valuesArray10,
                     backgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#00E63B",
+                        "#EE1D40",
+                        "#E60000"
                     ],
                     hoverBackgroundColor: [
-                        "#FF6384",
-                        "#36A2EB",
-                        "#FFCE56"
+                        "#00E63B",
+                        "#EE1D40",
+                        "#E60000"
                     ],
                     borderWidth: 1,
                 },
@@ -315,72 +316,82 @@ export const Equipo3 = () => {
         })
     }, [JuegoOpMultipleFound]);
 
+    const lightOptions = {
+        plugins: {
+            legend: {
+                labels: {
+                    color: '#ffffff'
+                }
+            }
+        }
+    };
+
     return (
         <div className="grid">
             <div className="col-12 xl:col-12 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >{general ? "Gráfica general" : ''}</p>
-                    <Chart type="doughnut" data={general} style={{ position: 'relative', width: '50%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={general} style={{ position: 'relative', width: '50%' }} />
                 </div>
             </div>
             <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta1 ? pregunta1.pregunta : ''}</p>
-                    <Chart type="doughnut" data={pregunta1} style={{ position: 'relative', width: '90%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={pregunta1} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta2 ? pregunta2.pregunta : ''}</p>
-                    <Chart type="doughnut" data={pregunta2} style={{ position: 'relative', width: '90%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={pregunta2} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta3 ? pregunta3.pregunta : ''}</p>
-                    <Chart type="doughnut" data={pregunta3} style={{ position: 'relative', width: '90%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={pregunta3} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta4 ? pregunta4.pregunta : ''}</p>
-                    <Chart type="doughnut" data={pregunta4} style={{ position: 'relative', width: '90%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={pregunta4} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta5 ? pregunta5.pregunta : ''}</p>
-                    <Chart type="doughnut" data={pregunta5} style={{ position: 'relative', width: '90%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={pregunta5} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta6 ? pregunta6.pregunta : ''}</p>
-                    <Chart type="doughnut" data={pregunta6} style={{ position: 'relative', width: '90%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={pregunta6} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta7 ? pregunta7.pregunta : ''}</p>
-                    <Chart type="doughnut" data={pregunta7} style={{ position: 'relative', width: '90%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={pregunta7} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta8 ? pregunta8.pregunta : ''}</p>
-                    <Chart type="doughnut" data={pregunta8} style={{ position: 'relative', width: '90%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={pregunta8} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta9 ? pregunta9.pregunta : ''}</p>
-                    <Chart type="doughnut" data={pregunta9} style={{ position: 'relative', width: '90%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={pregunta9} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >{pregunta10 ? pregunta10.pregunta : ''}</p>
-                    <Chart type="doughnut" data={pregunta10} style={{ position: 'relative', width: '90%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={pregunta10} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
         </div>

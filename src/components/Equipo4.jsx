@@ -36,13 +36,13 @@ export const Equipo4 = () => {
                     {
                         data: valuesArray,
                         backgroundColor: [
-                            "#FF6384",
-                            "#36A2EB",
+                            "#00E63B",
+                            "#EE1D40",
                             "#FFCE56"
                         ],
                         hoverBackgroundColor: [
-                            "#FF6384",
-                            "#36A2EB",
+                            "#00E63B",
+                            "#EE1D40",
                             "#FFCE56"
                         ],
                         borderWidth: 1,
@@ -55,13 +55,13 @@ export const Equipo4 = () => {
                     {
                         data: valuesArray1,
                         backgroundColor: [
-                            "#FF6384",
-                            "#36A2EB",
+                            "#00E63B",
+                            "#EE1D40",
                             "#FFCE56"
                         ],
                         hoverBackgroundColor: [
-                            "#FF6384",
-                            "#36A2EB",
+                            "#00E63B",
+                            "#EE1D40",
                             "#FFCE56"
                         ],
                         borderWidth: 1,
@@ -75,13 +75,13 @@ export const Equipo4 = () => {
                     {
                         data: valuesArray2,
                         backgroundColor: [
-                            "#FF6384",
-                            "#36A2EB",
+                            "#00E63B",
+                            "#EE1D40",
                             "#FFCE56"
                         ],
                         hoverBackgroundColor: [
-                            "#FF6384",
-                            "#36A2EB",
+                            "#00E63B",
+                            "#EE1D40",
                             "#FFCE56"
                         ],
                         borderWidth: 1,
@@ -95,13 +95,13 @@ export const Equipo4 = () => {
                     {
                         data: valuesArray3,
                         backgroundColor: [
-                            "#FF6384",
-                            "#36A2EB",
+                            "#00E63B",
+                            "#EE1D40",
                             "#FFCE56"
                         ],
                         hoverBackgroundColor: [
-                            "#FF6384",
-                            "#36A2EB",
+                            "#00E63B",
+                            "#EE1D40",
                             "#FFCE56"
                         ],
                         borderWidth: 1,
@@ -112,30 +112,40 @@ export const Equipo4 = () => {
         }
     }, [JuegoDragDropFound])
 
+    const lightOptions = {
+        plugins: {
+            legend: {
+                labels: {
+                    color: '#ffffff'
+                }
+            }
+        }
+    };
+
     return (
         <div className="grid">
-            <div className="col-12 xl:col-6 sm:col-12">
+            <div className="col-12 xl:col-12 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >{general ? "Gráfica general" : ''}</p>
-                    <Chart type="doughnut" data={general} style={{ position: 'relative', width: '60%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={general} style={{ position: 'relative', width: '60%' }} />
                 </div>
             </div>
             <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >Gráfica nivel 1</p>
-                    <Chart type="doughnut" data={juego1} style={{ position: 'relative', width: '90%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={juego1} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >Gráfica nivel 2</p>
-                    <Chart type="doughnut" data={juego2} style={{ position: 'relative', width: '90%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={juego2} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
             <div className="col-12 xl:col-6 sm:col-12">
                 <div className="card flex flex-column align-items-center">
                     <p className="text-sm md:text-lg sm:text-sm m-0" >Gráfica nivel 3</p>
-                    <Chart type="doughnut" data={juego3} style={{ position: 'relative', width: '90%' }} />
+                    <Chart type="doughnut" options={lightOptions} data={juego3} style={{ position: 'relative', width: '90%' }} />
                 </div>
             </div>
         </div>
