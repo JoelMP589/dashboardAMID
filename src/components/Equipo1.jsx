@@ -22,12 +22,12 @@ export const Equipo1 = () => {
             console.log(memoramaFound);
             labelsArray.push("De acuerdo");
             labelsArray.push("En desacuerdo");
-            valuesArray1.push(memoramaFound[1].Si);
-            valuesArray1.push(memoramaFound[1].No);
-            valuesArray2.push(memoramaFound[2].Si);
-            valuesArray2.push(memoramaFound[2].No);
+            valuesArray1.push(memoramaFound[0].Si);
+            valuesArray1.push(memoramaFound[0].No);
+            valuesArray2.push(memoramaFound[1].Si);
+            valuesArray2.push(memoramaFound[1].No);
+            preguntas.push(memoramaFound[0].Texto);
             preguntas.push(memoramaFound[1].Texto);
-            preguntas.push(memoramaFound[2].Texto);
         }
         setPregunta1({
             labels: labelsArray,
