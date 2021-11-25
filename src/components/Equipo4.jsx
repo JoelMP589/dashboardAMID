@@ -22,14 +22,22 @@ export const Equipo4 = () => {
         if (JuegoDragDropFound) {
             labelsArray.push("Ganador");
             labelsArray.push("Perdedor");
-            valuesArray.push(JuegoDragDropFound[3].Ganador);
+            valuesArray.push(367);
+            valuesArray.push(151);
+            valuesArray1.push(386);
+            valuesArray1.push(112);
+            valuesArray2.push(394);
+            valuesArray2.push(121);
+            valuesArray3.push(467);
+            valuesArray3.push(36);
+            /* valuesArray.push(JuegoDragDropFound[3].Ganador);
             valuesArray.push(JuegoDragDropFound[3].Perdedor);
             valuesArray1.push(JuegoDragDropFound[0].Ganador);
             valuesArray1.push(JuegoDragDropFound[0].Perdedor);
             valuesArray2.push(JuegoDragDropFound[1].Ganador);
             valuesArray2.push(JuegoDragDropFound[1].Perdedor);
             valuesArray3.push(JuegoDragDropFound[2].Ganador);
-            valuesArray3.push(JuegoDragDropFound[2].Perdedor);
+            valuesArray3.push(JuegoDragDropFound[2].Perdedor); */
             setGeneral({
                 labels: labelsArray,
                 datasets: [
